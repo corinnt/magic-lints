@@ -18,20 +18,20 @@ use std::vec::Vec;
 
 dylint_linting::declare_late_lint! {
     /// ### What it does
-    /// Denies manual implementations of AlohomoraType. 
+    /// Denies manual implementations of AlohomoraType 
+    
     /// ### Why is this bad?
     /// Developers must derive impls of AlohomoraType to ensure integrity of data protection.
-    /// ### Known problems
-    /// Remove if none.
-    ///
+
     /// ### Example
     /// ```rust
-    /// // example code where a warning is issued
+    /// // impl AlohomoraType for BadStruct { ... }
     /// ```
     /// Use instead:
     /// ```rust
-    /// // example code that does not raise a warning
-    /// ```
+    /// // #[derive(AlohomoraType)]
+    /// // #[out_type(name = "GoodStructOut", to_derive = [Debug])]
+    /// // pub struct GoodStruct { ... }    /// ```
     pub ALOHOMORA_TY_DERIVED,
     Deny,
     "AlohomoraType must always be derived, not user-implemented"
