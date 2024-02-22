@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+trait_def = { path = "../../linting/trait_def" }
+trait_derive = { path = "../../linting/trait_derive" }

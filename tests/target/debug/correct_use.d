@@ -1,0 +1,1 @@
+/Users/corinn/Desktop/ETOS/magic-lints/tests/target/debug/correct_use: /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_def/src/lib.rs /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_derive/src/alohomora_type.rs /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_derive/src/lib.rs /Users/corinn/Desktop/ETOS/magic-lints/tests/correct_use/src/main.rs

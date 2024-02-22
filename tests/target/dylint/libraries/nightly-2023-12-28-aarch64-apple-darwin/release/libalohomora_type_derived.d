@@ -1,0 +1,1 @@
+/Users/corinn/Desktop/ETOS/magic-lints/tests/target/dylint/libraries/nightly-2023-12-28-aarch64-apple-darwin/release/libalohomora_type_derived.dylib: /Users/corinn/Desktop/ETOS/magic-lints/linting/alohomora_type_derived/src/lib.rs

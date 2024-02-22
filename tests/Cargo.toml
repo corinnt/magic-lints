@@ -4,3 +4,8 @@ members = [
     "correct_use", 
     "incorrect_use",
 ]
+
+[workspace.metadata.dylint]
+libraries = [
+    { path = "./../linting/alohomora_type_derived" },
+]
