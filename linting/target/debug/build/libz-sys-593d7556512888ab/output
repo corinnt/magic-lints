@@ -64,20 +64,20 @@ running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fd
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-inflate.o" "-c" "src/zlib/inflate.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-inftrees.o" "-c" "src/zlib/inftrees.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-trees.o" "-c" "src/zlib/trees.c"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-uncompr.o" "-c" "src/zlib/uncompr.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-zutil.o" "-c" "src/zlib/zutil.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-gzclose.o" "-c" "src/zlib/gzclose.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-gzlib.o" "-c" "src/zlib/gzlib.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-gzread.o" "-c" "src/zlib/gzread.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "src/zlib" "-fvisibility=hidden" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-D_C99_SOURCE" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/lib/0dc752f03a07a721-gzwrite.o" "-c" "src/zlib/gzwrite.c"
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
 exit status: 0
 exit status: 0
 exit status: 0

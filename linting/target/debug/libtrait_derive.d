@@ -1,0 +1,1 @@
+/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/libtrait_derive.dylib: /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_def/src/lib.rs /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_derive/src/alohomora_type.rs /Users/corinn/Desktop/ETOS/magic-lints/linting/trait_derive/src/lib.rs

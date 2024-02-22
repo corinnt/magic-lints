@@ -1,3 +1,5 @@
+#![allow(unused_imports)]
+
 extern crate proc_macro;
 extern crate syn;
 

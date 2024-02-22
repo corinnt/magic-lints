@@ -1,10 +1,10 @@
-dyld[14727]: Symbol not found: _libiconv
+dyld[74425]: Symbol not found: _libiconv
   Referenced from: <44F647F6-D76C-3E7B-B421-CD370EA30087> /opt/local/bin/gettext
   Expected in:     <04F2F563-6B36-3525-A591-0179E58210ED> /usr/lib/libiconv.2.dylib
-dyld[14730]: Symbol not found: _libiconv
+dyld[74429]: Symbol not found: _libiconv
   Referenced from: <1F4EDC48-3752-31C1-A108-B1824C9B31F0> /opt/local/bin/envsubst
   Expected in:     <04F2F563-6B36-3525-A591-0179E58210ED> /usr/lib/libiconv.2.dylib
-dyld[14732]: Symbol not found: _libiconv
+dyld[74475]: Symbol not found: _libiconv
   Referenced from: <1F4EDC48-3752-31C1-A108-B1824C9B31F0> /opt/local/bin/envsubst
   Expected in:     <04F2F563-6B36-3525-A591-0179E58210ED> /usr/lib/libiconv.2.dylib
-/opt/local/bin/gettext.sh: line 87: 14732 Abort trap: 6           envsubst "$1"
+/opt/local/bin/gettext.sh: line 87: 74475 Abort trap: 6           envsubst "$1"

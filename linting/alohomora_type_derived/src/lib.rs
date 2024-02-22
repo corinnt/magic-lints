@@ -20,7 +20,7 @@ dylint_linting::declare_late_lint! {
     /// ### What it does
     /// Denies manual implementations of AlohomoraType. 
     /// ### Why is this bad?
-    /// Developers must derive impls of AlohomoraType to ensure integrity of BBoxes.
+    /// Developers must derive impls of AlohomoraType to ensure integrity of data protection.
     /// ### Known problems
     /// Remove if none.
     ///
@@ -33,8 +33,8 @@ dylint_linting::declare_late_lint! {
     /// // example code that does not raise a warning
     /// ```
     pub ALOHOMORA_TY_DERIVED,
-    Warn,
-    "AlohomoraType must always be DERIVED, not user-implemented"
+    Deny,
+    "AlohomoraType must always be derived, not user-implemented"
 }
 
 impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
