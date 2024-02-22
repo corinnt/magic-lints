@@ -1,8 +1,8 @@
 use trait_derive:: AlohomoraType;
 use trait_def::AlohomoraType; 
 
-#[derive(AlohomoraType, Clone, Debug)]
-#[out_type(name = "GoodStructOut")]
+#[derive(AlohomoraType)]
+#[out_type(name = "GoodStructOut", to_derive = [Debug])]
 pub struct GoodStruct {
     _f1: u8,
 }
@@ -14,6 +14,6 @@ impl GoodStructOut {
 }
 
 fn main() {
-    let mystruct = GoodStruct{ _f1: 42 };
+    let mystruct = <GoodStruct as AlohomoraType>::Out::new(42);
     println!("{:?}", mystruct); 
 }
