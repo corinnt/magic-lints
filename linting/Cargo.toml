@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "trait_derive", 
+    "trait_def",
+    "alohomora_type_derived",
+]
