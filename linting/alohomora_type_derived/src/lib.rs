@@ -19,7 +19,7 @@ use std::vec::Vec;
 dylint_linting::declare_late_lint! {
     /// ### What it does
     /// Denies manual implementations of AlohomoraType 
-    
+
     /// ### Why is this bad?
     /// Developers must derive impls of AlohomoraType to ensure integrity of data protection.
 
@@ -43,7 +43,6 @@ impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
     //fn check_expr(&mut self, cx: &LateContext<'_>, expr: &Expr<'_>) {
     fn check_crate(&mut self, cx: &LateContext<'tcx>) {
 
-        // this returns None -> panics: 
         let parts = vec!["trait_def", "AlohomoraType"]; 
         let path: &[&str] = &parts;
         let aloh_ty_did = get_trait_def_id(cx, path).unwrap(); 
@@ -78,8 +77,6 @@ impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
                  v.iter()
                     .for_each(|def_id| {
                         let span = map.span_if_local(def_id.clone()).unwrap(); 
-                        //TODO if span.cxt() and use rustc_middle::lint::in_external_macro;
-
                         span_lint_and_help (
                             cx,
                             ALOHOMORA_TY_DERIVED,
