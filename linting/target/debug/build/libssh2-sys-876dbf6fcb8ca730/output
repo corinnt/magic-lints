@@ -38,6 +38,9 @@ running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fd
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-global.o" "-c" "libssh2/src/global.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-hostkey.o" "-c" "libssh2/src/hostkey.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-keepalive.o" "-c" "libssh2/src/keepalive.c"
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-kex.o" "-c" "libssh2/src/kex.c"
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-knownhost.o" "-c" "libssh2/src/knownhost.c"
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-mac.o" "-c" "libssh2/src/mac.c"
 cargo:warning=libssh2/src/hostkey.c:403:5: warning: 'RSA_free' is deprecated [-Wdeprecated-declarations]
 cargo:warning=    _libssh2_rsa_free(rsactx);
 cargo:warning=    ^
@@ -83,17 +86,7 @@ cargo:warning=                                                ^
 cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
 cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
 cargo:warning=                                                   ^
-cargo:warning=3 warnings generated.
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-kex.o" "-c" "libssh2/src/kex.c"
-running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-knownhost.o" "-c" "libssh2/src/knownhost.c"
+running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-misc.o" "-c" "libssh2/src/misc.c"
 cargo:warning=libssh2/src/kex.c:2322:9: warning: 'EC_KEY_free' is deprecated [-Wdeprecated-declarations]
 cargo:warning=        _libssh2_ecdsa_free(key_state->private_key);
 cargo:warning=        ^
@@ -109,84 +102,15 @@ cargo:warning=                                                ^
 cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
 cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
 cargo:warning=                                                   ^
-cargo:warning=1 warning generated.
-running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-mac.o" "-c" "libssh2/src/mac.c"
-cargo:warning=libssh2/src/knownhost.c:423:21: warning: 'HMAC_CTX_new' is deprecated [-Wdeprecated-declarations]
-cargo:warning=                    libssh2_hmac_ctx_init(ctx);
-cargo:warning=                    ^
-cargo:warning=libssh2/src/openssl.h:304:42: note: expanded from macro 'libssh2_hmac_ctx_init'
-cargo:warning=#define libssh2_hmac_ctx_init(ctx) ctx = HMAC_CTX_new()
-cargo:warning=                                         ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:33:1: note: 'HMAC_CTX_new' has been explicitly marked deprecated here
-cargo:warning=OSSL_DEPRECATEDIN_3_0 HMAC_CTX *HMAC_CTX_new(void);
-cargo:warning=^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-cargo:warning=                                                ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-cargo:warning=                                                   ^
-cargo:warning=libssh2/src/knownhost.c:430:21: warning: 'HMAC_Init_ex' is deprecated [-Wdeprecated-declarations]
-cargo:warning=                    libssh2_hmac_sha1_init(&ctx, (unsigned char *)node->salt,
-cargo:warning=                    ^
-cargo:warning=libssh2/src/openssl.h:306:3: note: expanded from macro 'libssh2_hmac_sha1_init'
-cargo:warning=  HMAC_Init_ex(*(ctx), key, keylen, EVP_sha1(), NULL)
-cargo:warning=  ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:43:1: note: 'HMAC_Init_ex' has been explicitly marked deprecated here
-cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Init_ex(HMAC_CTX *ctx, const void *key, int len,
-cargo:warning=^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-cargo:warning=                                                ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-cargo:warning=                                                   ^
-cargo:warning=libssh2/src/knownhost.c:432:21: warning: 'HMAC_Update' is deprecated [-Wdeprecated-declarations]
-cargo:warning=                    libssh2_hmac_update(ctx, (unsigned char *)host,
-cargo:warning=                    ^
-cargo:warning=libssh2/src/openssl.h:317:3: note: expanded from macro 'libssh2_hmac_update'
-cargo:warning=  HMAC_Update(ctx, data, datalen)
-cargo:warning=  ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:45:1: note: 'HMAC_Update' has been explicitly marked deprecated here
-cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Update(HMAC_CTX *ctx, const unsigned char *data,
-cargo:warning=^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-cargo:warning=                                                ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-cargo:warning=                                                   ^
-cargo:warning=libssh2/src/knownhost.c:434:21: warning: 'HMAC_Final' is deprecated [-Wdeprecated-declarations]
-cargo:warning=                    libssh2_hmac_final(ctx, hash);
-cargo:warning=                    ^
-cargo:warning=libssh2/src/openssl.h:318:39: note: expanded from macro 'libssh2_hmac_final'
-cargo:warning=#define libssh2_hmac_final(ctx, data) HMAC_Final(ctx, data, NULL)
-cargo:warning=                                      ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:47:1: note: 'HMAC_Final' has been explicitly marked deprecated here
-cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Final(HMAC_CTX *ctx, unsigned char *md,
-cargo:warning=^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-cargo:warning=                                                ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-cargo:warning=                                                   ^
-cargo:warning=libssh2/src/knownhost.c:435:21: warning: 'HMAC_CTX_free' is deprecated [-Wdeprecated-declarations]
-cargo:warning=                    libssh2_hmac_cleanup(&ctx);
-cargo:warning=                    ^
-cargo:warning=libssh2/src/openssl.h:319:35: note: expanded from macro 'libssh2_hmac_cleanup'
-cargo:warning=#define libssh2_hmac_cleanup(ctx) HMAC_CTX_free(*(ctx))
-cargo:warning=                                  ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:35:1: note: 'HMAC_CTX_free' has been explicitly marked deprecated here
-cargo:warning=OSSL_DEPRECATEDIN_3_0 void HMAC_CTX_free(HMAC_CTX *ctx);
-cargo:warning=^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-cargo:warning=                                                ^
-cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-cargo:warning=                                                   ^
-cargo:warning=5 warnings generated.
+cargo:warning=3 warnings generated.
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
 cargo:warning=libssh2/src/mac.c:117:5: warning: 'HMAC_CTX_new' is deprecated [-Wdeprecated-declarations]
 cargo:warning=    libssh2_hmac_ctx_init(ctx);
 cargo:warning=    ^
@@ -713,23 +637,99 @@ cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: 
 cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
 cargo:warning=                                                   ^
 cargo:warning=35 warnings generated.
-running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-misc.o" "-c" "libssh2/src/misc.c"
+cargo:warning=libssh2/src/knownhost.c:423:21: warning: 'HMAC_CTX_new' is deprecated [-Wdeprecated-declarations]
+cargo:warning=                    libssh2_hmac_ctx_init(ctx);
+cargo:warning=                    ^
+cargo:warning=libssh2/src/openssl.h:304:42: note: expanded from macro 'libssh2_hmac_ctx_init'
+cargo:warning=#define libssh2_hmac_ctx_init(ctx) ctx = HMAC_CTX_new()
+cargo:warning=                                         ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:33:1: note: 'HMAC_CTX_new' has been explicitly marked deprecated here
+cargo:warning=OSSL_DEPRECATEDIN_3_0 HMAC_CTX *HMAC_CTX_new(void);
+cargo:warning=^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+cargo:warning=                                                ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=                                                   ^
+cargo:warning=libssh2/src/knownhost.c:430:21: warning: 'HMAC_Init_ex' is deprecated [-Wdeprecated-declarations]
+cargo:warning=                    libssh2_hmac_sha1_init(&ctx, (unsigned char *)node->salt,
+cargo:warning=                    ^
+cargo:warning=libssh2/src/openssl.h:306:3: note: expanded from macro 'libssh2_hmac_sha1_init'
+cargo:warning=  HMAC_Init_ex(*(ctx), key, keylen, EVP_sha1(), NULL)
+cargo:warning=  ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:43:1: note: 'HMAC_Init_ex' has been explicitly marked deprecated here
+cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Init_ex(HMAC_CTX *ctx, const void *key, int len,
+cargo:warning=^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+cargo:warning=                                                ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=                                                   ^
+cargo:warning=libssh2/src/knownhost.c:432:21: warning: 'HMAC_Update' is deprecated [-Wdeprecated-declarations]
+cargo:warning=                    libssh2_hmac_update(ctx, (unsigned char *)host,
+cargo:warning=                    ^
+cargo:warning=libssh2/src/openssl.h:317:3: note: expanded from macro 'libssh2_hmac_update'
+cargo:warning=  HMAC_Update(ctx, data, datalen)
+cargo:warning=  ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:45:1: note: 'HMAC_Update' has been explicitly marked deprecated here
+cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Update(HMAC_CTX *ctx, const unsigned char *data,
+cargo:warning=^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+cargo:warning=                                                ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=                                                   ^
+cargo:warning=libssh2/src/knownhost.c:434:21: warning: 'HMAC_Final' is deprecated [-Wdeprecated-declarations]
+cargo:warning=                    libssh2_hmac_final(ctx, hash);
+cargo:warning=                    ^
+cargo:warning=libssh2/src/openssl.h:318:39: note: expanded from macro 'libssh2_hmac_final'
+cargo:warning=#define libssh2_hmac_final(ctx, data) HMAC_Final(ctx, data, NULL)
+cargo:warning=                                      ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:47:1: note: 'HMAC_Final' has been explicitly marked deprecated here
+cargo:warning=OSSL_DEPRECATEDIN_3_0 int HMAC_Final(HMAC_CTX *ctx, unsigned char *md,
+cargo:warning=^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+cargo:warning=                                                ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=                                                   ^
+cargo:warning=libssh2/src/knownhost.c:435:21: warning: 'HMAC_CTX_free' is deprecated [-Wdeprecated-declarations]
+cargo:warning=                    libssh2_hmac_cleanup(&ctx);
+cargo:warning=                    ^
+cargo:warning=libssh2/src/openssl.h:319:35: note: expanded from macro 'libssh2_hmac_cleanup'
+cargo:warning=#define libssh2_hmac_cleanup(ctx) HMAC_CTX_free(*(ctx))
+cargo:warning=                                  ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/hmac.h:35:1: note: 'HMAC_CTX_free' has been explicitly marked deprecated here
+cargo:warning=OSSL_DEPRECATEDIN_3_0 void HMAC_CTX_free(HMAC_CTX *ctx);
+cargo:warning=^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:194:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+cargo:warning=#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+cargo:warning=                                                ^
+cargo:warning=/opt/homebrew/opt/openssl@3/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+cargo:warning=#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+cargo:warning=                                                   ^
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-packet.o" "-c" "libssh2/src/packet.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-pem.o" "-c" "libssh2/src/pem.c"
+cargo:warning=5 warnings generated.
+cargo:warning=1 warning generated.
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-publickey.o" "-c" "libssh2/src/publickey.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-scp.o" "-c" "libssh2/src/scp.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-session.o" "-c" "libssh2/src/session.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-sftp.o" "-c" "libssh2/src/sftp.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-transport.o" "-c" "libssh2/src/transport.c"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-userauth.o" "-c" "libssh2/src/userauth.c"
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
-exit status: 0
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-userauth_kbd_packet.o" "-c" "libssh2/src/userauth_kbd_packet.c"
 running: env -u IPHONEOS_DEPLOYMENT_TARGET "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "--target=arm64-apple-darwin" "-mmacosx-version-min=13.0" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/include" "-I" "libssh2/src" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build" "-I" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libz-sys-593d7556512888ab/out/include" "-I" "/opt/homebrew/opt/openssl@3/include" "-fvisibility=hidden" "-DHAVE_LONGLONG" "-DHAVE_SNPRINTF" "-DHAVE_UNISTD_H" "-DHAVE_INTTYPES_H" "-DHAVE_STDLIB_H" "-DHAVE_SYS_SELECT_H" "-DHAVE_SYS_SOCKET_H" "-DHAVE_SYS_IOCTL_H" "-DHAVE_SYS_TIME_H" "-DHAVE_SYS_UN_H" "-DHAVE_O_NONBLOCK" "-DLIBSSH2_OPENSSL" "-DHAVE_LIBCRYPT32" "-DHAVE_EVP_AES_128_CTR" "-DHAVE_POLL" "-DHAVE_GETTIMEOFDAY" "-DLIBSSH2_DH_GEX_NEW" "-DLIBSSH2_HAVE_ZLIB" "-DLIBSSH2DEBUG" "-o" "/Users/corinn/Desktop/ETOS/magic-lints/linting/target/debug/build/libssh2-sys-876dbf6fcb8ca730/out/build/903bc623e643396f-openssl.o" "-c" "libssh2/src/openssl.c"
 cargo:warning=libssh2/src/openssl.c:131:12: warning: 'RSA_new' is deprecated [-Wdeprecated-declarations]

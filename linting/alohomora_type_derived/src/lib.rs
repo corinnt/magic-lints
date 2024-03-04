@@ -11,6 +11,7 @@ use clippy_utils::get_trait_def_id;
 //use clippy_utils::ty::implements_trait; 
 //use rustc_hir::Expr;
 
+use rustc_span::def_id::DefId; 
 use rustc_middle::ty::fast_reject::SimplifiedType;
 
 use std::vec::Vec;
@@ -38,52 +39,53 @@ dylint_linting::declare_late_lint! {
 }
 
 impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
-    // A list of things you might check can be found here:
-    // https://doc.rust-lang.org/stable/nightly-rustc/rustc_lint/trait.LateLintPass.html
-    //fn check_expr(&mut self, cx: &LateContext<'_>, expr: &Expr<'_>) {
-    fn check_crate(&mut self, cx: &LateContext<'tcx>) {
 
-        let parts = vec!["trait_def", "AlohomoraType"]; 
-        let path: &[&str] = &parts;
-        let aloh_ty_did = get_trait_def_id(cx, path).unwrap(); 
-                                          
+    fn check_crate(&mut self, cx: &LateContext<'tcx>) {
+        let path: &[&str] = &vec!["trait_def", "AlohomoraType"];
+        let aloh_ty_did: DefId = get_trait_def_id(cx, path).unwrap(); 
+
         let secret = "ALOHOMORA"; 
-        let contains_secret = |(_, v): (&SimplifiedType, &Vec<rustc_span::def_id::DefId>)| 
-                                v.iter()
-                                .any(|&def_id|
-                                    cx.tcx
-                                    .get_attr(def_id, rustc_span::symbol::Symbol::intern("doc"))
+        let contains_secret = |def_id: DefId| cx.tcx.get_attr(def_id, rustc_span::symbol::Symbol::intern("doc"))
                                     .and_then(|attr| Some(attr.doc_str().unwrap().to_ident_string()))
                                     .and_then(|doc| Some(doc.contains(secret)))
-                                    .unwrap_or(false)); 
-          
-        // attempt at checking crate, but only works for library impls
-        // pretty sure crate shows up as user-side when from an expanded macro
-        /* let contains_secret = |(k, v): (&SimplifiedType, &Vec<rustc_span::def_id::DefId>)| 
-                                v.iter()
-                                .any(|&def_id|
-                                    def_id.krate == aloh_ty_did.krate); */
+                                    .unwrap_or(false);  
 
-        let bad_impls: Vec<(&SimplifiedType, &Vec<rustc_span::def_id::DefId>)> = cx.tcx
-                                .trait_impls_of(aloh_ty_did)
-                                .non_blanket_impls()
-                                .iter()
-                                .filter(|&(k, v)| !contains_secret((k, v)))
-                                .collect();
+        let map: rustc_middle::hir::map::Map = cx.tcx.hir(); 
+        let error_message = |&def_id: &DefId| {
+            let span = map.span_if_local(def_id.clone()).unwrap(); 
+            span_lint_and_help (
+                cx,
+                ALOHOMORA_TY_DERIVED,
+                span,
+                "manual implementation of AlohomoraType trait", 
+                None, "use `#[derive(AlohomoraType)]` instead"
+            );
+        };
+
+        let trait_impls: &rustc_middle::ty::trait_def::TraitImpls = cx.tcx.trait_impls_of(aloh_ty_did);
+        let _blanket_bad_impls: Vec<DefId> = 
+                                trait_impls.blanket_impls()
+                                    .iter()
+                                    .filter(|&def_id| !contains_secret(*def_id))
+                                    .cloned()
+                                    .collect();                 
+        let non_blanket_bad_impls: Vec<(&SimplifiedType, &Vec<DefId>)> = 
+                                trait_impls.non_blanket_impls()
+                                    .iter()
+                                    .filter(|&(_, v)|
+                                                v.iter()
+                                                .any(|&def_id| !contains_secret(def_id)))
+                                    .collect();
         
-        let map : rustc_middle::hir::map::Map = cx.tcx.hir(); 
-        bad_impls.iter()
+        //TODO: blanket impls not local -> panics. assume we do need to fail for blanket?
+        //blanket_bad_impls.iter()
+            //.for_each(|def_id| error_message(def_id)); 
+                              
+        non_blanket_bad_impls.iter()
             .for_each(|&(_, v)| {
                  v.iter()
                     .for_each(|def_id| {
-                        let span = map.span_if_local(def_id.clone()).unwrap(); 
-                        span_lint_and_help (
-                            cx,
-                            ALOHOMORA_TY_DERIVED,
-                            span,
-                            "manual implementation of AlohomoraType trait", 
-                            None, "use `#[derive(AlohomoraType)]` instead"
-                        );
+                        error_message(def_id)
                     });
                 }
             );
