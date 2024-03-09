@@ -23,5 +23,6 @@ impl AlohomoraType for EveStruct2 {
 
 fn main() {
     let mystruct = EveStruct{ _f1: 42 };
-    println!("{:?}", mystruct); 
+    println!("hiiiiokii {:?}", mystruct); 
 }
+

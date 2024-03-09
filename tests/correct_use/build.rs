@@ -5,6 +5,7 @@ fn main() {
 
     let profile = std::env::var("PROFILE").unwrap();
     if profile.clone().as_str() == "release" {
+
         let lint_res = Command::new("cargo")
             .arg("dylint")
             .arg("--all")
