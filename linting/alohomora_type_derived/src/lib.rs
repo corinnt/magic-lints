@@ -16,7 +16,6 @@ use rustc_middle::ty::fast_reject::SimplifiedType;
 
 use std::vec::Vec;
 
-
 dylint_linting::declare_late_lint! {
     /// ### What it does
     /// Denies manual implementations of AlohomoraType 
@@ -34,7 +33,7 @@ dylint_linting::declare_late_lint! {
     /// // #[out_type(name = "GoodStructOut", to_derive = [Debug])]
     /// // pub struct GoodStruct { ... }    /// ```
     pub ALOHOMORA_TY_DERIVED,
-    Deny,
+    Deny, //does not allow override
     "AlohomoraType must always be derived, not user-implemented"
 }
 
@@ -42,7 +41,11 @@ impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
 
     fn check_crate(&mut self, cx: &LateContext<'tcx>) {
         let path: &[&str] = &vec!["trait_def", "AlohomoraType"];
-        let aloh_ty_did: DefId = get_trait_def_id(cx, path).unwrap(); 
+        let aloh_ty_did: Option<DefId> = get_trait_def_id(cx, path); 
+        if aloh_ty_did.is_none() {
+            return; 
+        } 
+        let aloh_ty_did = aloh_ty_did.unwrap(); 
 
         let secret = "ALOHOMORA"; 
         let contains_secret = |def_id: DefId| cx.tcx.get_attr(def_id, rustc_span::symbol::Symbol::intern("doc"))
@@ -68,7 +71,8 @@ impl<'tcx> LateLintPass<'tcx> for AlohomoraTyDerived {
                                     .iter()
                                     .filter(|&def_id| !contains_secret(*def_id))
                                     .cloned()
-                                    .collect();                 
+                                    .collect();  
+
         let non_blanket_bad_impls: Vec<(&SimplifiedType, &Vec<DefId>)> = 
                                 trait_impls.non_blanket_impls()
                                     .iter()
