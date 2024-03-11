@@ -1,7 +1,7 @@
 [package]
 name = "alohomora_type_derived"
 version = "0.1.0"
-authors = ["authors go here"]
+authors = ["corinn_tiffany@brown.edu"]
 description = "description goes here"
 edition = "2021"
 publish = false

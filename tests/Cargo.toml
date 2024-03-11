@@ -6,6 +6,7 @@ members = [
 ]
 
 [workspace.metadata.dylint]
-libraries = [
-    { path = "./../linting/alohomora_type_derived" },
+libraries = [  
+      { path = "./../linting/alohomora_type_derived" },
 ]
+
